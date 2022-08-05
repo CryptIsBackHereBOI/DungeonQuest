@@ -35,7 +35,7 @@ local Window = Library.CreateLib("Dungeon Quest - SUPER INSTA KILL", "DarkTheme"
 
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Made By SomeDudeMakeUHappy#3321")
-Section:NewLabel("SELECT FARMING MDTHOD FIRST")
+Section:NewLabel("SELECT FARMING METHOD FIRST")
 
 Section:NewDropdown("Farming Method", "DropdownInf", {"Above", "Under"}, function(c)
    if c == "Above" then
