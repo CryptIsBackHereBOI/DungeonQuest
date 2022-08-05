@@ -31,10 +31,10 @@ end --end for tweenteleport
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Dungeon Quest - SUPER INSTA KILL", "DarkTheme")
+local Window = Library.CreateLib("Dungeon Quest - Made For Light.#1337", "DarkTheme")
 
 local Tab = Window:NewTab("Main")
-local Section = Tab:NewSection("Made By SomeDudeMakeUHappy#3321")
+local Section = Tab:NewSection("Made By Made For Light.#1337")
 Section:NewLabel("SELECT FARMING METHOD FIRST")
 
 Section:NewDropdown("Farming Method", "DropdownInf", {"Above", "Under"}, function(c)
